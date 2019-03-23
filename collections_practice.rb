@@ -31,4 +31,4 @@ end
 
 def find_a (array)
   array = ["apple", "orange", "pear", "avis", "arlo", "ascot" ]
-  
+  array.find_
