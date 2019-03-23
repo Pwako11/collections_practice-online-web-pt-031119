@@ -26,5 +26,5 @@ end
 
 def kesha_maker(array)
   array = ["blake", "ashley", "scott"]
-  my_each(array) {|i| i[2] = $} 
+  my_each(array) {|i| i[2] = "$"} 
 end 
