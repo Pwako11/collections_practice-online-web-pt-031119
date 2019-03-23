@@ -36,9 +36,12 @@ end
 
 def sum_array (array, sum)
   array = [11,4,7,8,9,100,134]
-  sum = 0 
-  array.each do |num| 
-  sum += num
-  end
-  sum
+  # sum = 0 
+  # array.each do |num| 
+  # sum += num
+  # end
+  
+  array.inject(0) {|sum, i| sum + i}
 end 
+
+def 
