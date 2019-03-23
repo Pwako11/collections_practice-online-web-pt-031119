@@ -46,4 +46,11 @@ end
 
 def add_s(array)
   array = ["hand","feet", "knee", "table"]
-  array.each {|i| i[2] = "$"}
+  array.collect do |word| 
+    if array[1] == word 
+      word
+    else
+      word + "s"
+    end 
+  end 
+end 
