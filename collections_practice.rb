@@ -10,6 +10,6 @@ end
 
 sort_array_char_count(["dogs", "cat", "Horses"])
 def sort_array_char_count(array)
-  array.sort {|a,b| b.length <=> a.length}
+  array.sort {|a,b| a.length <=> b.length}
   end 
 end
