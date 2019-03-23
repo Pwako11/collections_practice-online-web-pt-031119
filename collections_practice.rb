@@ -1,7 +1,6 @@
-def sort_array_asc (sort_array_asc, sort_array_desc)
+def Collections_practice (sort_array_asc, sort_array_desc)
   sort_array_asc.sort 
   end 
-
   sort_array_desc.sort.reverse!
   end
 end 
