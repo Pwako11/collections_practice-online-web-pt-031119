@@ -34,7 +34,7 @@ def find_a (array)
   array.find_all {|i| i[0] == "a"}
 end
 
-def sum_array (array, sum)
+def sum_array (array)
   array = [11,4,7,8,9,100,134]
   # sum = 0 
   # array.each do |num| 
