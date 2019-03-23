@@ -2,8 +2,8 @@ def sort_array_asc (array)
   array.sort 
 end 
 
-sort_array_desc([25, 7, 14]) 
 def sort_array_desc (array)
+  array = [25, 7, 14]
   array.sort {|a,b| b <=> a}
   end
 
