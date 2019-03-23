@@ -28,3 +28,5 @@ def kesha_maker(array)
   array = ["blake", "ashley", "scott"]
   array.each {|i| i[2] = "$"} 
 end 
+
+def find_a ()
