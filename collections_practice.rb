@@ -31,4 +31,5 @@ end
 
 def find_a (array)
   array = ["apple", "orange", "pear", "avis", "arlo", "ascot" ]
-  array.find_
+  array.find_all {|i| i{0} == "a"}
+end
