@@ -8,3 +8,8 @@ def sort_array_desc (array)
   end
 end
 
+sort_array_char_count(["dogs", "cat", "Horses"])
+def sort_array_char_count(array)
+  array.sort {|a,b| b <=> a}
+  end 
+end
