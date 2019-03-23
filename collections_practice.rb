@@ -29,4 +29,6 @@ def kesha_maker(array)
   array.each {|i| i[2] = "$"} 
 end 
 
-def find_a ()
+def find_a (array)
+  array = ["apple", "orange", "pear", "avis", "arlo", "ascot" ]
+  
