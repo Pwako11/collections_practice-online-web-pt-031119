@@ -34,8 +34,8 @@ def find_a (array)
   array.find_all {|i| i[0] == "a"}
 end
 
-def sum_array (array, num)
+def sum_array (array, sum)
   array = [11,4,7,8,9,100,134]
-  array.each {|num| num += num}
-  num
+  array.each {|num| num += sum}
+  sum
 end 
