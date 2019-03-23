@@ -3,6 +3,6 @@ def sort_array_asc (array)
 end 
   
 def sort_array_desc (array)
-  sort_array_desc.sort {|a,b| b<=>a }
+  sort_array_desc.sort do |a,b| b<=>a
   end
 end
