@@ -17,5 +17,5 @@ def swap_elements(array)
   array = ["blake", "ashley", "scott"]
   array[1], array[2] = array[2], array[1]
   array
-  # destination_index []
 end 
+
